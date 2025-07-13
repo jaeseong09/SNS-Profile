@@ -1,0 +1,279 @@
+body{
+  background-color:  #f7f9fc;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 1200px;
+}
+
+
+.profileBox{
+  background-color: white;
+  width: 100%;
+  height: 300px;
+  box-shadow: 0px 4px 8 rgba(0, 0, 0,0.1);
+  margin-top: 70px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.profileImg{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 75px 0 50px 75px;
+  
+}
+
+.name{
+  position: absolute;
+  top: 80px;
+  left: 250px;
+}
+
+.main-mane{
+  font-size: 30px;
+}
+
+.name p {
+  line-height: 15px;
+}
+
+.name i{
+  font-size: 20px;
+  color: #6fbaf8;
+
+}
+
+.name span{
+  color: #6fbaf8;  
+}
+
+.Contact-btn{
+  border: none;
+  background-color: #6fbaf8;
+  color: white;
+  border-radius: 5px;
+  width: 125px;
+  height: 40px;
+}
+
+.Contact-btn:hover{
+  background-color: #5ea9e7;
+}
+
+.line{
+  border: 1px solid silver;
+  width: 1;
+  height: 225px;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  position: absolute;
+  top: 40px;
+  left: 800px;
+}
+
+.frist-information{
+  position: absolute;
+  top: 75px;
+  right: 350px;
+  font-weight: 600;
+}
+
+.last-information{
+  position: absolute;
+  top: 75px;
+  right: 100px;
+}
+
+.profile-bule{
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 50px;
+  color: #6fbaf8;
+}
+
+.progress-container{
+  width: 100%;
+  height: 3px;
+  background-color: silver;
+  border-radius: 50px;
+}
+
+.line-row{
+  width: 160px;
+  height: 3px;
+  background-color: #6fbaf8;
+  border-radius: 50px;
+}
+
+.works{
+  background-color: white;
+  border-radius: 5px;
+  position: relative;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.works-div{
+  height: 300px;
+}
+
+.works-title{
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.works div{
+  margin-top: 40px;
+
+}
+
+.works div p{
+  line-height: 10px;
+  margin-left: 10px;
+}
+
+.About{
+  border: 20px solid #f7f9fc;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: inset ;
+  box-shadow: inset 0 -2px 4px rgba(0, 0, 0, 0.075);
+}
+.about-title{
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.About p{
+  width: 80%;
+  line-height: 25px;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.About a {
+  color: #6fbaf8;
+  text-decoration: none;
+  margin-left: 20px;
+  line-height: 30px;
+}
+
+.line-about{
+  width: 95%;
+  height: 2px;
+  border-radius: 50px;
+  background-color: silver;
+  display: flex;
+  justify-self: center;
+  margin-top: 100px;
+}
+
+.skills{
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.skills-box{
+  margin-top: 20px;
+  margin-left: 15px;
+  height: 200px;
+}
+
+.skills-badge{
+  border: 1px solid silver;
+  background-color: #fff;
+  vertical-align: middle;
+  padding: 5px 15px;
+}
+
+.Sign-Up{
+  background-color: white;
+  border-radius: 10px;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.Sign-Up-div {
+  height: 250px;
+}
+
+.Sign-Up i{
+  font-size: 80px;
+  color: #6fbaf8;
+  display: flex;
+  justify-self: center;
+  margin-top: 20px;
+}
+
+.Sign-Up-div-link{
+  display: flex;
+  justify-self: center;
+  margin-top: 20px;
+  font-size:  18px;
+}
+
+.Sign-Up button {
+  display: flex;
+  justify-self: center;
+  border: none;
+  background-color: #6fbaf8;
+  padding: 10px 40px;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.Sign-Up button:hover{
+  background-color: #5ea9e7;
+}
+
+.Sign-Up a{
+  text-decoration: none;
+}
+
+.already{
+  display: flex;
+  justify-self: center;
+  font-size: 15px;
+  line-height: 10px;
+  color: #6fbaf8;
+}
+
+.container{
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .line{
+    display: none;
+  }
+  .profileBox{
+    height: 500px;
+  }
+  .frist-information{
+    position: absolute;
+    top: 300px;
+    left: 80px;
+    font-weight: 600;
+  }
+  .last-information{
+    position: absolute;
+    top: 300px;
+    left: 250px;
+  }
+  .About{
+    border: none;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+  }
+}
